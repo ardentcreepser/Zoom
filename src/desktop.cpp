@@ -239,9 +239,9 @@ class $modify(PlayLayer) {
 		PlayLayer::startGame();
 	}
 
-	bool init(GJGameLevel* level, bool useReplay, bool dontCreateObjects) {
+	bool init(GJGameLevel* level, bool dontCreateObjects) {
 		WindowsZoomManager::get()->onResume();
-		return PlayLayer::init(level, useReplay, dontCreateObjects);
+		return PlayLayer::init(level, dontCreateObjects);
 	}
 };
 

@@ -1,3 +1,6 @@
+# 1.4.1
+- Updated to Geometry Dash 2.2091 and Geode 6.0.0
+
 # 1.4.0
 - Updated to Geode 5.6.1 *(Sorry for the delay guys!)*
 - Fixed several mobile issues where buttons stop working after zooming

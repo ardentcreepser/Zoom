@@ -89,7 +89,7 @@ bool AndroidZoomLayer::init(CCNode* sceneLayer) {
 	this->setTouchEnabled(true);
 
 	m_backMenu->setTouchPriority(CCDirector::sharedDirector()->getTouchDispatcher()->getTargetPrio());
-	CCDirector::sharedDirector()->getTouchDispatcher()->registerForcePrio(m_backMenu, 2);
+	CCDirector::sharedDirector()->getTouchDispatcher()->registerForcePrio(m_backMenu, 2, 0);
 
 	geode::log::info("AndroidZoomLayer initialized!");
 	return true;
